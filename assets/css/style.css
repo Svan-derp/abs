@@ -436,6 +436,22 @@ p {
   color:  var(--theme-color-dark);
 }
 
+.navbar-brand {
+  background: url(../images/fullname.svg);
+  background-repeat: no-repeat;
+  width: 25vw;
+  height: 10vh;
+  margin-left: 20vw;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .navbar-brand {
+    background-size: contain;
+    width: 45vw;
+    height: 8vh;
+  }
+}
 .dropdown-menu {
   top: 117%;
   font-size: 12px;
